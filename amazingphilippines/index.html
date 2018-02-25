@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0">
+    <meta name="description" content="">
+
+    <!--Indsæt SEO i ovenstående -->
+
+    <title>Webdocumentary for Amazing Philippines</title>
+
+    <!--Find et passende logo i browser -->
+    <link rel="icon" href="image/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- VIDEO -->
+    <div class="videodiv">
+        <video id="video1" width="100%" autoplay="autoplay">
+        <source src="image/video.mp4" type="video/mp4"> 
+    </video>
+    </div>
+    
+
+    <!-- BACKGROUNDIMAGE -->
+    <img class="background" src="image/background.png" alt="Bagrundsbillede af en strand og hav">
+
+    <!-- IMAGES FOR CLOUDS -->
+    <img class="cloud1" src="image/cloud.png" alt="Billede af en sky" width="17%">
+    <img class="cloud2" src="image/cloud.png" alt="Billede af en sky" width="10%">
+    <img class="cloud3" src="image/cloud.png" alt="Billede af en sky" width="6%">
+    <img class="cloud4" src="image/cloud.png" alt="Billede af en sky" width="12%">
+    <img class="cloud5" src="image/cloud.png" alt="Billede af en sky" width="6%">
+    <img class="cloud6" src="image/cloud.png" alt="Billede af en sky" width="8%">
+    <img class="cloud7" src="image/cloud.png" alt="Billede af en sky" width="10%">
+
+    <!-- TEKST -->
+    <img class="postcard_tekst1" src="image/postcard_tekst1.png" alt="Postkort" width="43%">
+    <img class="postcard_tekst2" src="image/postcard_tekst2.png" alt="Postkort" width="43%">
+    <img class="postcard_tekst3" src="image/postcard_tekst3.png" alt="Postkort" width="43%">
+
+    <!-- POSTCARDS ON BEACH -->
+    <img class="postcard5" src="image/postkort_5.jpg" alt="Postkort af to mænd som slapper af ved stranden" width="27%">
+    <img class="postcard3" src="image/postkort_3.jpg" alt="Postkort af en masse surfbræt" width="27%">
+    <img class="postcard2" src="image/postkort_2.jpg" alt="Postkort af en pige med et surfbræt" width="27%">
+
+    <!-- BEACH ITEMS -->
+    <img class="chairred" src="image/chair_red.png" alt="Klapstol" width="10%">
+    <img class="chairblue" src="image/chair_blue.png" alt="Klapstol" width="11%">
+    <img class="fire" src="image/fire.png" alt="Billede af et bål" width="10%">
+    <img class="krabbe1" src="image/krabbe.png" alt="Rød krabbe" width="7%">
+    <img class="krabbe2" src="image/krabbe.png" alt="Rød krabbe" width="4%">
+
+    <!-- CITATER -->
+    <div class="tekst">
+        <p>“Rejsedestinationen <br> Amazing Philippines tilbyder <br> en ekstraordinær oplevelse <br> udover det sædvanlige. “</p>
+    </div>
+
+    <div class="tekst1">
+        <p>“Amazing Philippines tilbyder både <br> en aktiv ferie med actionfyldt vandsport, <br> samt meditation til et roligere sind. <br> Som helhed en ferie der giver dig <br> oplevelser der både styrker dit sind <br> og velvære. Amazing Philippines kan give <br> dig minder du aldrig glemmer.”</p>
+    </div>
+
+    <!-- FISHES -->
+    <img class="fish1" src="image/fish_red_left.png" alt="En rød fisk" width="4%">
+    <img class="fish3" src="image/fish_red_left.png" alt="En rød fisk" width="4%">
+    <img class="fish4" src="image/fish_yellow_left.png" alt="En gul fisk" width="4%">
+    <img class="fish5" src="image/fish_green_left.png" alt="En grøn fisk" width="4%">
+    <img class="fish2" src="image/fish_yellow_right.png" alt="En gul fisk" width="4%">
+    <img class="fish6" src="image/fish_green_right.png" alt="En grøn fisk" width="4%">
+    <img class="fish7" src="image/fish_red_right.png" alt="En rød fisk" width="4%">
+    <img class="fish8" src="image/fish_red_left.png" alt="En rød fisk" width="4%">
+    <img class="fish9" src="image/fish_yellow_left.png" alt="En gul fisk" width="4%">
+    <img class="fish10" src="image/fish_green_left.png" alt="En grøn fisk" width="4%">
+    <img class="fish11" src="image/fish_red_right.png" alt="En rød fisk" width="4%">
+
+
+    <!-- POSTCARDS UNDER WATER -->
+    <img class="postcard1" src="image/postkort_1.jpg" alt="Postkort med en mand og et surfbræt" width="27%">
+    <img class="postcard4" src="image/postkort_4.jpg" alt="Postkort med en mand i en båd" width="27%">
+
+    <!-- SHARK -->
+    <img class="shark" src="image/shark.png" alt="En haj der svømmer" width="30%">
+
+    <!-- GRASS -->
+    <img class="tang1" src="image/tang1.png" alt="Grønt tang" width="22%">
+    <img class="tang2" src="image/tang2.png" alt="Grønt tang" width="20%">
+    <img class="tang3" src="image/tang3.png" alt="Grønt tang" width="24%">
+
+    <!-- JAVASCRIPT -->
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        function myFunction() {
+
+            var vid = document.getElementById("video1");
+
+            if (scrollY > 0) {
+                vid.muted = true;
+            }
+            if (scrollY < 802) {
+                vid.muted = true;
+            }
+    </script>
+    
+</body>
+
+</html>
